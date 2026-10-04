@@ -1,4 +1,4 @@
-Minecraft AI Groq Bridge
+# Minecraft AI Groq Bridge
 
 一個輕量、高擴充性且極速回應的 Minecraft AI 控制介面。本專案透過 Mineflayer 將 Minecraft 遊戲內部狀態轉接至 Groq API (LLaMA 3 / 3.3) 與 WebSocket 伺服器，實現毫秒級的 AI 角色自主決策與遊戲互動。
 
@@ -32,16 +32,16 @@ npm install mineflayer ws mineflayer-pathfinder minecraft-data groq-sdk dotenv
 
 在專案根目錄建立 .env 檔案：
 
-# Groq API 設定
+Groq API 設定
 GROQ_API_KEY=your_groq_api_key_here
 GROQ_MODEL=llama-3.3-70b-versatile
 
-# Minecraft 伺服器設定
+Minecraft 伺服器設定
 MC_HOST=localhost
 MC_PORT=25565
 MC_USER=GroqAIBot
 
-# WebSocket 設定
+WebSocket 設定
 WS_PORT=8080
 
 
